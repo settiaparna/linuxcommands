@@ -1,0 +1,22 @@
+usename@ipaddress-connect the linux vm
+pwd=path
+touch<filename>=creating a filename
+cat<filename>=open the file
+vi<filename>=edit the file
+shift+:,wq!=save the edit file
+shift+:q=quit the file
+cp <filename> <destinationfilename>=copy the file
+mv <filename> <reqired filename>=change the file name
+mkdir <foldername>=creating a directory
+cd <foldername>= open the folder 
+rm -rf <directoryname>=removing the folder
+ll= list of files
+mv <oldname > <newname>=change the file and foldername
+tar -xvf<filename>=untar the file
+unzip <zipfilename>=unzip the file
+wget =download
+apt update=update the system
+sudo useradd <username>=user add
+
+
+

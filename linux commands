@@ -1,10 +1,11 @@
-usename@ipaddress-connect the linux vm
+ssh usename@ipaddress-connect the linux vm
+sudo -i=change the root directory
 pwd=path
 touch<filename>=creating a filename
 cat<filename>=open the file
 vi<filename>=edit the file
-shift+:,wq!=save the edit file
-shift+:q=quit the file
+shift+:,wq=save the edit file
+shift+:q!=quit the file
 cp <filename> <destinationfilename>=copy the file
 mv <filename> <reqired filename>=change the file name
 mkdir <foldername>=creating a directory
@@ -17,6 +18,8 @@ unzip <zipfilename>=unzip the file
 wget =download
 apt update=update the system
 sudo useradd <username>=user add
-
+curl -I http://localhost:8080=check the localhost url
+cd=roothome
+cd .
 
 

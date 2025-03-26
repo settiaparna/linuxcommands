@@ -18,8 +18,25 @@ unzip <zipfilename>=unzip the file
 wget =download
 apt update=update the system
 sudo useradd <username>=user add
-curl -I http://localhost:8080=check the localhost url
+curl -I http://localhost:8080=check the localhost url note :(8080 is port number)
 cd=roothome
-cd .
+cd ..=back for one path
+cat /etc/os-release=check the os version
+apt install default-jdk=java  download (or) wget (link for java)
+vi etc/hostname=change the host name
+sudo systemctl status servicename=list  the status of service
+service --status-all=list the all the services status
+systemctl list-units --type=service --state=list for only running services
+sudo netstat -tuln | grep :80=checking the port enable or not
+sudo ss -tuln=list of all enable port numbers
+
+
+
+
+
+
+
+
+
 
 
